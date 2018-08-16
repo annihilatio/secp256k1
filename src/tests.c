@@ -4,6 +4,8 @@
  * file COPYING or http://www.opensource.org/licenses/mit-license.php.*
  **********************************************************************/
 
+#pragma GCC diagnostic ignored "-Wnonnull"
+
 #if defined HAVE_CONFIG_H
 #include "libsecp256k1-config.h"
 #endif
