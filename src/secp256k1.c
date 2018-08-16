@@ -4,6 +4,8 @@
  * file COPYING or http://www.opensource.org/licenses/mit-license.php.*
  **********************************************************************/
 
+#pragma GCC diagnostic ignored "-Wnonnull"
+
 #include "secp256k1.h"
 
 #include "util.h"
