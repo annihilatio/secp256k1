@@ -34,4 +34,5 @@ add_executable(gen_context src/gen_context.c)
 target_link_libraries(gen_context secp256k1custom)
 
 add_executable(tests src/tests.c)
+SET_TARGET_PROPERTIES(tests PROPERTIES COMPILE_FLAGS "-Wno-nonnull")
 target_link_libraries(tests secp256k1custom)
